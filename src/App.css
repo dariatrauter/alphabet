@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topMenuDiv {
+  background-color: white;
+  color: #ccc;
+  padding: 5px;
+	-webkit-user-select: none; /* Safari 3.1+ */
+	-moz-user-select: none; /* Firefox 2+ */
+	-ms-user-select: none; /* IE 10+ */
+  user-select: none;
+  flex:1;
+  margin: 0 2px 0 2px;
+}
+
+.topMenu{
+	background-color: #ffeb7a;
+	width: 100%;
+  height: 60px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottomMenu {
+  position: absolute;
+	bottom: 0;
+	background-color: #ffeb7a;
+	width: 100%;
+  height: 60px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottomMenuDiv {
+ 
+  background-color: #ccc;
+  color: #fff;
+  font-size: 1.4rem;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: 400;
+  cursor: pointer;
+	-webkit-user-select: none; /* Safari 3.1+ */
+	-moz-user-select: none; /* Firefox 2+ */
+	-ms-user-select: none; /* IE 10+ */
+	user-select: none;
+  flex: 2;
+}
+
+.bottomMenuDiv.gross {
+  flex: 3;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.wrap {
+	background-color: #ff6746;
+	position: relative;
+	width: 65%;
+	min-width: 1236px;
+	height: 750px;
+	margin: 20px auto 0 auto;	
+ }
+
+.karte {
+  color: blue;
+	border-radius: 20px;
+	background-color: skyblue;
+	font-family: Arial;
+	font-size: 15.0em;
+	text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  -webkit-user-select: none; /* Safari 3.1+ */
+	-moz-user-select: none; /* Firefox 2+ */
+	-ms-user-select: none; /* IE 10+ */
+  user-select: none;
+  line-height: 500px;
+}
+
+.oben {
+  z-index: 1000;
+}
+
+.imgWrap img {
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.topMenuDiv img {
+  width: 100%;
+
+  height: 100%;
+ 
+  object-fit: cover;
+}
+.imgWrap{
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  width: 100%;
+  height: 90%;
+}
+
+.buttonPanel {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #c5eaea;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttonPanel button {
+  border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	background-color: skyblue;
+	color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  line-height: 33px;
+}
+
+.buttonPanel button canvas {
+  border-radius: inherit;
+}
+
+.buttonPanel button img {
+  border-radius: inherit;
+}
+
+.imgWrap canvas{
+  background-color: #fff;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.myFooter {
+  border: 1px solid darkgrey;
+  background-color: white;
+	width: 65%;
+	height: 100px;
+	margin: 0px auto;
+}
+.myFooter canvas {
+  background-color: #fff;
+}
+
+main nav {
+  margin-top: 15px;
+  color: #fff;
+}
+main nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px;
+  display: inline-block;
+}
+
+main nav a:hover {
+  background: linear-gradient(to right,#fff, #ffeb7a);
+  background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.active {
+  background: linear-gradient(to right,#fff, #ffeb7a);
+  background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  text-decoration: underline;
+  color: #fff;
+}
+.activeCard {
+  position: relative;
+  width: inherit;
+  height : inherit;
+  background-color: #6cd9ff;
+  border-radius: inherit;
+}
+
+.info p {
+  color: darkslategrey;
+  font-size: 1.2rem;
+}

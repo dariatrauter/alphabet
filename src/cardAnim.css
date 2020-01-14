@@ -1,0 +1,38 @@
+.rotateCenterRight {
+    transform: translate(38%, -50%) scale(0.47,0.47) rotate(45deg);
+	background-color: yellow;
+ }
+  .rotateCenterLeft {
+	transform: translate(-138%, -50%) scale(0.47,0.47) rotate(-45deg);
+	background-color: yellow 
+ }
+ .rotateRightCenter {
+	transform: rotate(-360deg)scale(1,1);
+	background-color: skyblue !important;
+ }
+ .rotateLeftCenter {
+	transform: rotate(360deg)scale(1,1);
+	background-color: skyblue !important;
+ }
+  .rotateCenterRightAnim {
+    transform: translate(38%, -50%) scale(0.47,0.47) rotate(405deg);
+	background-color: yellow;
+	transition: background-color .8s, transform .8s;
+ }
+  .rotateCenterLeftAnim {
+    transform:  translate(-138%, -50%) scale(0.47,0.47) rotate(-405deg);
+	background-color: yellow;
+	transition: background-color .8s, transform .8s;
+ }
+ .rotateRightCenterAnim {
+	transform: translate(-50%, -50%) scale(1,1) rotate(-360deg);
+	background-color: skyblue;
+	transition: background-color .8s, transform .8s;
+ }
+
+ .rotateLeftCenterAnim {
+	z-index: 1000;
+	transform: translate(-50%, -50%) scale(1,1) rotate(360deg);
+	background-color: skyblue;
+	transition: background-color .8s, transform .8s;
+ }
