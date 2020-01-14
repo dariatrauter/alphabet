@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f972ab5e172a98d711f7ccd6e0dfd2f9",
+    "revision": "12d552d82432a274754b9d1cd3764ebb",
     "url": "/dariatrauter/alphabet/index.html"
   },
   {
