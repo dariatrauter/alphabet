@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa3016130feb07299f5fd9c275ccff84",
+    "revision": "f972ab5e172a98d711f7ccd6e0dfd2f9",
     "url": "/dariatrauter/alphabet/index.html"
   },
   {
-    "revision": "3674f846000d3cd78479",
+    "revision": "bf097efd56dbe562d8f7",
     "url": "/dariatrauter/alphabet/static/css/main.228ae38e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dariatrauter/alphabet/static/js/2.e764bc1a.chunk.js"
   },
   {
-    "revision": "3674f846000d3cd78479",
-    "url": "/dariatrauter/alphabet/static/js/main.81f26f26.chunk.js"
+    "revision": "bf097efd56dbe562d8f7",
+    "url": "/dariatrauter/alphabet/static/js/main.263daac0.chunk.js"
   },
   {
     "revision": "92cac8cc983a0468bc8b",
