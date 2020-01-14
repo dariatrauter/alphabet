@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12d552d82432a274754b9d1cd3764ebb",
+    "revision": "e76e12c5e901e64a12275de51f8b625b",
     "url": "/dariatrauter/alphabet/index.html"
   },
   {
-    "revision": "bf097efd56dbe562d8f7",
+    "revision": "11523ed685a6761d5d55",
     "url": "/dariatrauter/alphabet/static/css/main.228ae38e.chunk.css"
   },
   {
-    "revision": "6c344eda228c2b1ca085",
-    "url": "/dariatrauter/alphabet/static/js/2.e764bc1a.chunk.js"
+    "revision": "6d3b4ab07ca1ee164561",
+    "url": "/dariatrauter/alphabet/static/js/2.14c96eff.chunk.js"
   },
   {
-    "revision": "bf097efd56dbe562d8f7",
-    "url": "/dariatrauter/alphabet/static/js/main.263daac0.chunk.js"
+    "revision": "11523ed685a6761d5d55",
+    "url": "/dariatrauter/alphabet/static/js/main.0fc53bb7.chunk.js"
   },
   {
     "revision": "92cac8cc983a0468bc8b",
