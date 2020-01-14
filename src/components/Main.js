@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Route, NavLink } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Route, NavLink } from 'react-router-dom';
 import Impressum from './Impressum';
 import Animation from './Animation';
 import Datenschutz from './Datenschutz';
@@ -67,7 +67,7 @@ class Main extends Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter basename='/'>>
                 <div className="wrap">
                     <BilderMenu helpRender={this.state.helpRender}></BilderMenu>
                     <main>
@@ -84,7 +84,7 @@ class Main extends Component {
                     <AlphabetMenu changeIndexHaendler={this.setNeuCurrentIndex}></AlphabetMenu>
                 </div>
                     <CanvasToType></CanvasToType>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }
